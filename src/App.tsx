@@ -1,7 +1,11 @@
-import React from "react";
+import ToDoList from "./components/ToDoList";
 
 function App() {
-	return null;
+	return (
+		<>
+			<ToDoList />
+		</>
+	);
 }
 
 export default App;
